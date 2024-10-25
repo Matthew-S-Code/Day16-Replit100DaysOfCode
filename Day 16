@@ -1,0 +1,14 @@
+print("Whats the missing song lyric? Post malone song* ")
+print()
+counter = 1
+while True:
+  lyrics = input("Im no good at ________?: ")
+  if lyrics == "goodbyes":
+    print("Im no good at GOODBYES. Congratulations you got the lyric in", counter,
+          "attempts")
+    print()
+    print("https://www.youtube.com/watch?v=S4asq3SicN0")
+    break
+  else:
+    print("try again")
+    counter += 1  
